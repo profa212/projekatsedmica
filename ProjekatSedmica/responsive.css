@@ -1,0 +1,76 @@
+@media (max-width: 59em) {
+  .projekt{
+font-size: 23px;
+  }
+  
+}
+
+@media (max-width: 48em) {
+  .projekt{
+font-size: 19px;
+  }
+
+  
+}
+
+@media (max-width: 41em) {
+  .projekt{
+font-size: 16px;
+  }
+  .pro{
+    font-size: 20px;
+  }
+  .grf{
+    font-size: 20px;
+  }
+  .hero{
+    font-size: 50px;
+  }
+  .navi{
+    gap: 40px;
+  }
+.projekt{
+  grid-template-columns: 40px 1fr 40px;
+}
+.telefon{
+  display: none;
+}
+.navig{
+  display: flex;
+  justify-content: center;
+}
+.grf{
+  display: none;
+}
+.pro{
+  display: none;
+}
+}
+
+
+@media (max-width: 34.4em) {
+  .projekt{
+font-size: 14px;
+  }
+  .hero{
+    margin-top: 50px;
+margin-bottom: 0
+  }
+  .rezultati{
+    margin-top: 50px;
+  }
+  
+  
+}
+@media (max-width: 30em) {
+  .projekt{
+font-size: 12px;
+  }
+  
+  .pro{
+    font-size: 5px;
+  }
+  .grf{
+    font-size: 5px;
+  }
+}

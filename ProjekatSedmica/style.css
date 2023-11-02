@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  
+  
+   
+  
+}
+body{
+  line-height: 1;
+  font-weight: 500;
+ 
+ 
+}
+
+.logo{
+  height: 80px;
+}
+
+.navig{
+  
+  display: flex;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.923)
+}
+.navi{
+
+display: flex;
+font-weight: 600;
+gap: 100px;
+
+}
+
+.navig p {
+
+font-size: 30px;
+
+}
+.rezultati{
+max-width: 120rem;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+
+
+}
+
+.projekt{
+display: grid;
+max-width: 1100px;
+grid-template-columns: 80px 1fr 80px;
+height: 70px;
+border-radius: 15px;
+font-size: 30px;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+margin-bottom: 50px;
+}
+.text{
+
+
+}
+
+.ocjena{
+
+
+
+}
+.prvo{
+  border-bottom: rgb(234, 230, 12) solid 5px;
+}
+.drugo{
+  border-bottom: rgb(150, 147, 147) solid 5px;
+}
+.trece{
+  border-bottom: rgb(136, 67, 3) solid 5px;
+}
+.mjesto{
+text-align: center;
+
+}
+
+.grafik{
+margin-left: auto;
+margin-right: auto;
+max-width: 1100px !important;
+height: 600px !important;
+
+
+}
+.graf{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px !important;
+height: 600px !important;
+
+}
+.ime{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.copyright{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero{
+font-size: 60px;
+text-align: center;
+margin-top: 150px;
+
+}
+.grad2{
+  padding-right: 200px;
+}
+.pro{
+  cursor: pointer;
+}
+.grf{
+  cursor: pointer;
+}
+.medalje{
+max-width: 1100px;
+margin: 150px auto;
+margin-bottom: 40px;
+text-align: center;
+font-size: 30px;
+}
+
+.parent {
+  margin-top: 50px;
+  display: grid;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1100px;
+grid-template-columns: 1fr;
+  
+  grid-row-gap: 50px;
+  margin-bottom: 100px;
+  }
+
+  .kartica{
+
+ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+display: grid;
+grid-template-rows: 1fr 1fr 30px;
+font-size: 20px;
+text-align: center;
+
+padding: 20px;
+border-radius: 15px;
+
+
+  }
+
+
+.active{
+  font-weight: 600;
+}
+.dd{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 40px;
+}
+.bodovi{
+  margin-top: 15px;
+}
+.df{
+  margin-bottom: 15px;
+}
